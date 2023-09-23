@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#aboutme">About Me</a>
+      <a href="projects.html">Projects</a>
+      <a href="#contact">Contact</a>
+  </div>
+
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1>Hi! I'm Tiffany</h1>
+      <p>And I'm a future Software Engineer</p>
+      <button>Learn More</button>
+    </div>
+  </div>
+
+  <div class="aboutme">
+      <h1>About Me</h1>
+      <p>Hi! My name is Tiffany. I currently study Software Engineering.
+        I'm excited to develop my skills in the programming world.
+        I hope to get started on more projects with the new skills I'll learn.
+        Outside of school I enjoy playing the piano, spending time with friends,
+        and if possible, travelling.</p><br />
+      <p>For any inquiries, you can contact me through the contact form at the bottom of the page.</p>
+  </div>
+
+  <h2 style="text-align:center">Work Experience</h2>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="img/zentree.jpg" alt="tree" style="width:100%">
+        <div class="container">
+          <h2>Project 1</h2>
+          <p class="title">Completed</p>
+          <p>Finding factorials with iterative and recursive methods.</p>
+          <p><button class="button">Details</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="img/wood.jpg" alt="wood" style="width:100%">
+        <div class="container">
+          <h2>Project 2</h2>
+          <p class="title">In Progress</p>
+          <p>Learning the fundamentals of JavaScript.</p>
+          <p><button class="button">Details</button></p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <div class="contact">
+    <div style="text-align:center">
+        <h2>Contact Me!</h2>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img src="img/zen1.jpg" style="width:100%">
+      </div>
+      <div class="column">
+        <form action="/action_page.php">
+            <label for="fname">Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="eaddress">Email Address</label>
+              <input type="text" id="eaddress" name="emailaddress" placeholder="Your email address..">
+            <label for="interest">I Have an Interest in..</label>
+              <select id="interest" name="interest">
+                <option value="hiring">Hiring</option>
+                <option value="project">Project Collaboration</option>
+              </select>
+              <label for="message">Questions and Comments</label>
+              <textarea id="message" name="message" placeholder="Leave a message!"
+                        style="height:170px"></textarea>
+              <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>Tiffany's Portfolio</p>
+  </div>
+</body>
+
+</html>
